@@ -1,0 +1,14 @@
+{
+  "name": "@aldertwig/access-auth",
+  "version": "0.1.0",
+  "description": "Verified Cloudflare Access identity. One helper, three runtimes.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test 'test/**/*.test.js'" },
+  "dependencies": { "jose": "^6.2.12" },
+  "license": "UNLICENSED",
+  "private": true
+}
